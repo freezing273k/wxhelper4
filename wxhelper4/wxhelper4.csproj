@@ -58,8 +58,38 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\admin.css" />
+    <Content Include="css\amazeui.css" />
+    <Content Include="css\amazeui.flat.css" />
+    <Content Include="css\amazeui.flat.min.css" />
+    <Content Include="css\amazeui.min.css" />
+    <Content Include="css\app.css" />
     <Content Include="Default.aspx" />
     <Content Include="Default2.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="i\app-icon72x72%402x.png" />
+    <Content Include="i\examples\admin-chrome.png" />
+    <Content Include="i\examples\admin-firefox.png" />
+    <Content Include="i\examples\admin-ie.png" />
+    <Content Include="i\examples\admin-opera.png" />
+    <Content Include="i\examples\admin-safari.png" />
+    <Content Include="i\examples\adminPage.png" />
+    <Content Include="i\examples\blogPage.png" />
+    <Content Include="i\examples\landing.png" />
+    <Content Include="i\examples\landingPage.png" />
+    <Content Include="i\examples\loginPage.png" />
+    <Content Include="i\examples\sidebarPage.png" />
+    <Content Include="i\favicon.png" />
+    <Content Include="i\startup-640x1096.png" />
+    <Content Include="js\amazeui.ie8polyfill.js" />
+    <Content Include="js\amazeui.ie8polyfill.min.js" />
+    <Content Include="js\amazeui.js" />
+    <Content Include="js\amazeui.min.js" />
+    <Content Include="js\amazeui.widgets.helper.js" />
+    <Content Include="js\amazeui.widgets.helper.min.js" />
+    <Content Include="js\app.js" />
+    <Content Include="js\handlebars.min.js" />
+    <Content Include="js\jquery.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +110,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
