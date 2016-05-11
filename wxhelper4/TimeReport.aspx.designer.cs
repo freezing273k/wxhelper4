@@ -10,7 +10,7 @@
 namespace wxhelper4 {
     
     
-    public partial class Default {
+    public partial class TimeReport {
         
         /// <summary>
         /// form1 控件。

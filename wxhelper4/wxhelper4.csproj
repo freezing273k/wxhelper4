@@ -67,6 +67,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Default2.aspx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="image\icon48_appwx_logo.png" />
     <Content Include="i\app-icon72x72%402x.png" />
     <Content Include="i\examples\admin-chrome.png" />
     <Content Include="i\examples\admin-firefox.png" />
@@ -90,6 +91,8 @@
     <Content Include="js\app.js" />
     <Content Include="js\handlebars.min.js" />
     <Content Include="js\jquery.min.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="TimeReport.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -107,7 +110,21 @@
     <Compile Include="Default2.aspx.designer.cs">
       <DependentUpon>Default2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TimeReport.aspx.cs">
+      <DependentUpon>TimeReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TimeReport.aspx.designer.cs">
+      <DependentUpon>TimeReport.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\fontawesome-webfont.eot" />
